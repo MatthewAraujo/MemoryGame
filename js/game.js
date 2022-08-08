@@ -11,8 +11,8 @@ const characters = [
   'franjinha',
   'magali',
   'monica',
-  'sansao',
   'ze',
+  'sansao',
 ];
 
 const createElement = (tag, className) => {
