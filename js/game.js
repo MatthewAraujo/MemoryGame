@@ -109,6 +109,19 @@ const loadGame = () => {
     grid.appendChild(card);
   });
 }
+setTimeout(() => {
+  const cards = document.querySelectorAll('.card');
+  cards.forEach((card) => {
+    card.classList.add('reveal-card');
+  }),
+  setTimeout(() => {
+    cards.forEach((card) => {
+      card.classList.remove('reveal-card');
+    }),
+    
+    checkEndGame();
+  }, 5000);
+}, 1000);
 
 const startTimer = () => {
 
