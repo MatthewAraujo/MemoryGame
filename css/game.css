@@ -33,7 +33,7 @@ header {
 }
 
 .card {
-  aspect-ratio: 3/4;
+  aspect-ratio: 2/2;
   width: 100%;
   border-radius: 5px;
   position: relative;
